@@ -19,7 +19,7 @@ export default function ProjectBox({
     liveLink 
 }: ProjectBoxProps) {
     return (
-        <div className="group relative overflow-hidden rounded-lg bg-white shadow-lg transition-all duration-300 hover:shadow-xl dark:bg-gray-800 hover:scale-[1.02] flex flex-col h-full w-full">
+        <div className="group relative overflow-hidden rounded-lg bg-zinc-800 shadow-lg transition-all duration-300 hover:shadow-xl dark:bg-gray-800 hover:scale-[1.02] flex flex-col h-full w-full">
             <div className="relative h-48 w-full overflow-hidden sm:h-56 md:h-64">
                 <Image 
                     src={imageUrl} 
@@ -31,9 +31,9 @@ export default function ProjectBox({
             </div>
             
             <div className="p-5 flex flex-col flex-grow">
-                <h3 className="mb-2 text-xl font-bold text-gray-900 dark:text-white">{title}</h3>
+                <h3 className="mb-2 text-xl font-bold text-white">{title}</h3>
                 
-                <p className="mb-4 text-gray-700 dark:text-gray-300 line-clamp-3 sm:line-clamp-4">
+                <p className="mb-4 text-gray-300 line-clamp-3 sm:line-clamp-4">
                     {description}
                 </p>
                 
@@ -55,10 +55,10 @@ export default function ProjectBox({
                                 href={githubLink} 
                                 target="_blank" 
                                 rel="noopener noreferrer"
-                                className="flex items-center text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors"
+                                className="flex items-center text-gray-300 dark:hover:text-white transition-colors"
                                 aria-label={`GitHub repository for ${title}`}
                             >
-                                <div className="mr-1 h-5 w-5"><FaGithub /></div>
+                                <div className="mr-1 h-5 w-5 text-white"><FaGithub /></div>
                                 <span className="text-sm">Code</span>
                             </a>
                         )}
@@ -68,7 +68,7 @@ export default function ProjectBox({
                                 href={liveLink} 
                                 target="_blank" 
                                 rel="noopener noreferrer"
-                                className="flex items-center text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-200 transition-colors"
+                                className="flex items-center text-indigo-300 hover:text-indigo-200 transition-colors"
                                 aria-label={`Live demo for ${title}`}
                             >
                                 <div className="mr-1 h-4 w-4"><FaExternalLinkAlt /></div>

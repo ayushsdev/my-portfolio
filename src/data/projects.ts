@@ -12,23 +12,37 @@ export const projects: Project[] = [
         title: "Portfolio Website",
         description: "A modern portfolio website built with Next.js and Tailwind CSS, featuring smooth animations and responsive design.",
         technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
-        imageUrl: "/project_images/vienna.jpg",
-        githubLink: "https://github.com/yourusername/portfolio",
-        liveLink: "https://your-portfolio.com"
+        imageUrl: "/project_images/portfolio.jpg",
+        githubLink: "https://github.com/ayushsdev/my-portfolio",
+        liveLink: "https://www.ayush-sharma.dev"
     },
     {
-        title: "E-Commerce Platform",
-        description: "Full-stack e-commerce platform with user authentication, product management, and payment integration.",
-        technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-        imageUrl: "/project_images/vienna.jpg",
-        githubLink: "https://github.com/yourusername/ecommerce",
-        liveLink: "https://your-ecommerce.com"
+        title: "Computational Photography",
+        description: "A collection of computational photography projects, including image processing, computer vision, and machine learning.",
+        technologies: ["Python", "OpenCV", "NumPy", "Matplotlib"],
+        imageUrl: "/project_images/rohit_toast.png",
+        githubLink: "https://github.com/ayushsdev/Computational-Photography-Projects"
     },
     {
-        title: "AI Chat Application",
-        description: "Real-time chat application powered by AI, featuring natural language processing and sentiment analysis.",
-        technologies: ["Python", "TensorFlow", "WebSocket", "React"],
-        imageUrl: "/project_images/vienna.jpg",
-        githubLink: "https://github.com/yourusername/ai-chat"
+        title: "UIUC Chat",
+        description: "Research Assistant at NCSA developing UIUC Chat - a chatbot for the University of Illinois at Urbana-Champaign.",
+        technologies: ["Python", "RAG", "Natural Language Processing", "React", "Next.js"],
+        imageUrl: "/project_images/uiuc-chat.png",
+        githubLink: "https://github.com/ayushsdev/uiuc-chat-frontend-main",
+        liveLink: "https://uiuc.chat"
+    }, 
+    {
+        title: "Klink!",
+        description: "Co-founded Klink! - an AI-powered app that lets you find happy hours at your favorite bars and restaurants.",
+        technologies: ["Swift", "IOS", "Python", "Flask", "Firebase", "OpenAI", ],
+        imageUrl: "/project_images/klink.png",
+        liveLink: "https://www.klink.social"
+    },
+    {
+        title: "The Resistance Board Game",
+        description: "Made a mobile app for The Resistance Board Game",
+        technologies: ["Swift", "IOS", "Realtime Database", "Firebase", "Concurrency", ],
+        imageUrl: "/project_images/the-resistance.png",
+        githubLink: "https://github.com/ayushsdev/TheResistanceGame"
     }
 ]; 
