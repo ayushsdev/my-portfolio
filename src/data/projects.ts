@@ -43,6 +43,7 @@ export const projects: Project[] = [
         description: "Made a mobile app for The Resistance Board Game",
         technologies: ["Swift", "IOS", "Realtime Database", "Firebase", "Concurrency", ],
         imageUrl: "/project_images/the-resistance.png",
-        githubLink: "https://github.com/ayushsdev/TheResistanceGame"
+        githubLink: "https://github.com/ayushsdev/TheResistanceGame",
+        liveLink: "https://apps.apple.com/us/app/the-resistance-game/id6504948678"
     }
 ]; 
